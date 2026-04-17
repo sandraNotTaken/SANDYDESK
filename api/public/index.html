@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salon Smart Suite — AI Receptionist for Salons & Spas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Salon Smart Suite</div>
+  <ul class="nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#demo">Live Demo</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Book a Demo</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-tag">AI Receptionist · Available 24 / 7</div>
+  <h1 class="hero-headline">
+    Never miss a booking.<br>
+    <em>Ever again.</em>
+  </h1>
+  <p class="hero-sub">
+    Salon Smart Suite is an AI receptionist that books appointments, answers client questions, and follows up — while you focus on the work that matters.
+  </p>
+  <div class="hero-actions">
+    <a href="#demo" class="btn-primary">Try it live →</a>
+    <a href="#pricing" class="btn-ghost">See pricing</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div>
+    <div class="stat-num reveal">94%</div>
+    <div class="stat-label">Booking Capture Rate</div>
+  </div>
+  <div>
+    <div class="stat-num reveal">3 min</div>
+    <div class="stat-label">Avg. Response Time</div>
+  </div>
+  <div>
+    <div class="stat-num reveal">24/7</div>
+    <div class="stat-label">Always Online</div>
+  </div>
+  <div>
+    <div class="stat-num reveal">₦0</div>
+    <div class="stat-label">Extra Staff Cost</div>
+  </div>
+</div>
+
+<!-- LIVE DEMO -->
+<section class="demo-section" id="demo">
+  <p class="section-label reveal">Live Demo</p>
+  <h2 class="section-heading reveal">Talk to Aria, your AI receptionist</h2>
+  <p class="demo-note reveal">
+    Ask her anything a client would ask — services, pricing, availability, or how to book.
+  </p>
+
+  <div class="chat-window reveal">
+    <div class="chat-header">
+      <div class="status-dot"></div>
+      <span class="chat-title">Aria · <span>Salon Smart Suite</span> Receptionist</span>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="msg ai">
+        <div class="msg-avatar">AI</div>
+        <div class="msg-bubble">
+          Hello! Welcome to Glamour Studio. I'm Aria, your personal booking assistant. 
+          How can I help you today? I can book appointments, share pricing, or answer 
+          any questions you have about our services. ✨
+        </div>
+      </div>
+    </div>
+    <div class="chat-input-row">
+      <input class="chat-input" id="chatInput" placeholder="Ask Aria anything..." />
+      <button class="chat-send" id="chatSendBtn">Send →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-intro">
+    <p class="section-label reveal">What's Included</p>
+    <h2 class="section-heading reveal">Everything a receptionist does.<br>At a fraction of the cost.</h2>
+  </div>
+  <div class="features">
+    <div class="feature-card reveal">
+      <span class="feature-icon">📅</span>
+      <div class="feature-title">Smart Booking</div>
+      <div class="feature-desc">Aria collects client name, service, and preferred time — and logs it directly to your Google Sheet or booking system. No missed DMs.</div>
+    </div>
+    <div class="feature-card reveal">
+      <span class="feature-icon">💬</span>
+      <div class="feature-title">Instant Client Replies</div>
+      <div class="feature-desc">Responds to WhatsApp and Instagram messages in seconds. Clients feel attended to — even at 2am on a Sunday.</div>
+    </div>
+    <div class="feature-card reveal">
+      <span class="feature-icon">💰</span>
+      <div class="feature-title">Pricing & FAQs</div>
+      <div class="feature-desc">Knows your full menu of services, prices, duration, and policies. Answers every question so you don't have to.</div>
+    </div>
+    <div class="feature-card reveal">
+      <span class="feature-icon">🔔</span>
+      <div class="feature-title">Appointment Reminders</div>
+      <div class="feature-desc">Automatically follows up with booked clients 24 hours before their appointment — reducing no-shows by up to 60%.</div>
+    </div>
+    <div class="feature-card reveal">
+      <span class="feature-icon">📊</span>
+      <div class="feature-title">Google Sheets Logging</div>
+      <div class="feature-desc">Every booking and conversation is logged neatly. You always know who's coming in and what they want before they arrive.</div>
+    </div>
+    <div class="feature-card reveal">
+      <span class="feature-icon">🎨</span>
+      <div class="feature-title">Fully Customised to Your Salon</div>
+      <div class="feature-desc">We train Aria on your brand voice, your specific services, your prices, and your house rules. She sounds like you.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <p class="section-label reveal">Simple Pricing</p>
+  <h2 class="section-heading reveal">Pick the plan that fits your business</h2>
+  <p class="pricing-note reveal">No hidden fees. Cancel anytime. Setup included.</p>
+
+  <div class="pricing-grid">
+    <div class="price-card reveal">
+      <div class="price-tier">Starter</div>
+      <div class="price-num">₦45k</div>
+      <div class="price-period">per month</div>
+      <ul class="price-features">
+        <li>AI receptionist (WhatsApp)</li>
+        <li>Google Sheets booking log</li>
+        <li>Service menu & FAQs</li>
+        <li>Up to 200 conversations/mo</li>
+        <li>Email support</li>
+      </ul>
+      <a href="#contact" class="price-cta">Get started</a>
+    </div>
+
+    <div class="price-card featured reveal">
+      <div class="price-badge">Most Popular</div>
+      <div class="price-tier">Growth</div>
+      <div class="price-num">₦90k</div>
+      <div class="price-period">per month</div>
+      <ul class="price-features">
+        <li>WhatsApp + Instagram DM</li>
+        <li>Automated reminders</li>
+        <li>Custom brand voice & tone</li>
+        <li>Unlimited conversations</li>
+        <li>Monthly performance report</li>
+        <li>Priority support</li>
+      </ul>
+      <a href="#contact" class="price-cta">Get started</a>
+    </div>
+
+    <div class="price-card reveal">
+      <div class="price-tier">Enterprise</div>
+      <div class="price-num">Custom</div>
+      <div class="price-period">for chains & groups</div>
+      <ul class="price-features">
+        <li>Multi-location support</li>
+        <li>CRM & POS integration</li>
+        <li>Dedicated account manager</li>
+        <li>Custom analytics dashboard</li>
+        <li>Staff scheduling assistant</li>
+        <li>SLA guarantee</li>
+      </ul>
+      <a href="#contact" class="price-cta">Contact us</a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <p class="section-label reveal">Client Results</p>
+  <h2 class="section-heading reveal">What salon owners are saying</h2>
+
+  <div class="testimonial-grid">
+    <div class="testimonial-card reveal">
+      <div class="t-quote">"We used to lose bookings every weekend when the front desk was busy. Since Aria, we've captured every single inquiry. Revenue is up 40%."</div>
+      <div class="t-name">Amara O.</div>
+      <div class="t-role">Owner, Lumière Beauty Studio · Lagos</div>
+    </div>
+    <div class="testimonial-card reveal">
+      <div class="t-quote">"My clients think we hired a new receptionist. They keep saying how fast we respond now. It's just Aria — and she never sleeps."</div>
+      <div class="t-name">Chisom N.</div>
+      <div class="t-role">Co-Owner, The Glow Spa · Abuja</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="contact">
+  <h2 class="section-heading reveal">
+    Ready to put your<br>
+    <em>bookings on autopilot?</em>
+  </h2>
+  <p class="cta-sub reveal">
+    Book a free 20-minute demo. We'll show you exactly how Aria would work for your salon — no tech knowledge needed.
+  </p>
+  <div class="hero-actions reveal">
+    <a href="https://wa.me/2340000000000?text=Hi%2C+I%27d+like+a+demo+of+Salon+Smart+Suite" class="btn-primary" target="_blank">
+      WhatsApp Us →
+    </a>
+    <a href="mailto:hello@salonsmartsuite.com" class="btn-ghost">Send an Email</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Salon Smart Suite</div>
+  <div class="footer-copy">© 2026 Salon Smart Suite. Built with AI. Powered by care.</div>
+</footer>
+
+<script src="index.js" defer></script>
+
+</body>
+</html>
